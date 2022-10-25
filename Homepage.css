@@ -63,15 +63,11 @@ html, h3, h1, body{
     box-sizing: border-box;
     text-align: left;
     font-weight: bold;
-}
-.content1-img {
-    float: right;
-    background-color: rgb(224, 39, 39);
-    padding: 3%;
-    box-sizing: border-box;
     box-shadow: 0px 10px 7px #333;
-    height: 50%;
-    width: 100%;
+}
+#service {
+    float: right;
+    padding-right: 200px;
 }
 #service-list {
     text-align: left;
@@ -89,15 +85,16 @@ html, h3, h1, body{
     text-align: center;
     box-sizing: border-box;
     font-size: x-large;
-    padding-top: 200px;
+    padding-top: 75px;
 }
 .card {
     background-color: #fff;
-    border-radius: 10px;
     box-shadow: 0px 2px 20px #333;
     overflow: hidden;
     width: 300px;
     height: 200px;
+    margin: 0 30px;
+    align-items: center;
 }
 .card-header img{
     width: 100%;
@@ -108,11 +105,17 @@ html, h3, h1, body{
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 20px;
+    text-align: center;
+    padding: 10px;
     min-height: 250px;
+    background-color: rgb(224, 39, 39);
+}
+.card:hover {
+    transform: scale(1.2,1.2);
 }
 /* Bottom / Footer CSS */
 .contact{
+
     box-sizing: border-box;
     background-color: rgb(39, 36, 36);
     color:azure;
