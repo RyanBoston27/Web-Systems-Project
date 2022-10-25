@@ -3,40 +3,7 @@ html, h3, h1, body{
     margin: 0;
     padding: 0;
 }
-/* NAV CSS */
-.nav{
-    overflow: visible;
-    background-color: #333;
-    height: 15vh;
-    width: 100vw;
-    position: sticky;
-    box-sizing: border-box;
-    display: flex;
-}
-.nav-logo{
-    height: 100%;
-    width: 15%;
-}
-.nav-logo img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
-.nav-links{ 
-    height: 100%;
-    width: 85%;
-    display: inline;
-}
-.nav-links ul{
-    list-style: none;
-    text-align: end;
-    height: 60%;
-}
-.nav-links ul li{
-    display: inline;
-    cursor: pointer;
-    margin-right: 7%;
-}
+
 /* HEADER CSS */
 .header{
     height: 25vh;
