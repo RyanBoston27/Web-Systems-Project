@@ -5,6 +5,7 @@
     width: 100vw;
     box-sizing: border-box;
     display: flex;
+    box-sizing: border-box;
 }
   
 #nav a {
