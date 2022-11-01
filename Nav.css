@@ -4,6 +4,13 @@
     height: 15vh;
     width: 100vw;
     box-sizing: border-box;
+
+/*<<<<<<< ryan
+    display: flex;
+    box-sizing: border-box;
+=======
+*/>>>>>>> main
+
 }
   
 #nav a {
