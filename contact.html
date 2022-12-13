@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up - M&B Services</title>
-    <link rel = "stylesheet" href = "signup.css">
+    <title>Contact Us - M&B Services</title>
+    <link rel = "stylesheet" href = "contact.css">
     <link rel = "stylesheet" href = "Nav.css">
 </head>
 <body>
@@ -18,14 +18,15 @@
         <a href="Residential_Sewer&water.html">Residential Sewer & water</a>
         <a href="Commercial_Sewer&water.html">Commercial Sewer & water</a>
         <a >Sewer Pipe Lining</a>
-        <a >Contact Us</a>
+        <a class = "active" href="contact.html">Contact Us</a>
         <a href="Calculator.html">Job Calculator</a>
         <a href="login.html">Login</a>
-        <a class = "active" href="signup.html">Sign Up</a>
+        <a href="signup.html">Sign Up</a>
     </div>
-    <h2><img src = "./pictures/small_logo.png" alt="small_logo"></h2>
-    <div class ="signup">
-        <form id ="signup" method ="POST" action = "signup.php">
+
+    <h2>We're here to Help!</h2>
+    <div class ="submit">
+        <form id ="submit" method ="POST" action = "contact.php">
 
             <label><b>First Name</b></label>
             <input type = "text" name = "Fname" id = "Fname" placeholder = "First Name"><br><br>
@@ -39,19 +40,12 @@
             <label><b>Email</b></label>
             <input type = "email" name = "email" id = "email" placeholder = "Ex: m&bservices@mbservices.com"><br><br>
 
-            <label><b>Username</b></label>
-            <input type = "text" name = "Uname" id = "Uname" placeholder = "Username"><br><br>
-
-            <label><b>Password</b></label>
-            <input type = "password" name = "pass" id = "pass" placeholder="Password"><br><br>
+            <label><b>Message</b></label>
+            <textarea type = "text" name = "message" id = "message" placeholder = "Include any details about your request"></textarea><br><br>
 
         </form>
 
-        <button type = "submit" form = "signup" name = "sign" id = "sign" value = "SIGN UP">SIGN UP</button><br><br>
-
-        <p>OR</p><br>
-
-        <button type = "submit" name = "log" id = "log" value = "LOGIN" onclick="location.href = 'login.html'">LOGIN</button><br><br>
+        <button type = "submit" form = "submit" name="sub" id = "sub" value = "SUBMIT">SUBMIT</button><br><br>
     </div>
 </body>
 </html>
