@@ -3,6 +3,7 @@
 body {
     margin: 0;
     padding: 0;
+    padding-bottom: 100px;
     background-color: #fff;
 }
 
@@ -49,5 +50,5 @@ label {
     border-radius: 17px;
     padding-left: 7px;
     color: #fff;
-    background-color: rgb(224, 39, 39);
+    background-color: rgb(170, 0, 0);
 }
