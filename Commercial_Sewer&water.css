@@ -19,12 +19,13 @@ html, h3, h1, body{
     box-shadow: 0px -10px 7px #333;
 }
 .content1-text, .content3-text{
-    background-color: rgb(224, 39, 39);
+    background-color: rgb(170, 0, 0);
     padding: 3%;
     box-sizing: border-box;
     height: 50%;
     width: 100%;
     font-weight: bold;
+    color: #fff;
 }
 .content1-text{
     text-align: center;
@@ -33,7 +34,7 @@ html, h3, h1, body{
     text-align: left;
 }
 .content1-img{
-    background-color: rgb(224, 39, 39);
+    background-color: rgb(170, 0, 0);
     padding-left: 3%;
     padding-right: 3%;
     padding-bottom: 3%;
