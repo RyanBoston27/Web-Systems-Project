@@ -1,5 +1,4 @@
-/* Login page CSS */
-
+/* Sign Up page CSS */
 body {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@ body {
     background-color: #fff;
 }
 
-.login {
+.signup {
     width: 300px;
     overflow: hidden;
     margin: auto;
@@ -30,6 +29,38 @@ label {
 p {
     text-align: center;
     color: #fff;
+}
+
+#Fname {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#Lname {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#Pnumber {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#email {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
 }
 
 #Uname {
