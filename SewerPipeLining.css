@@ -62,17 +62,11 @@ html, h3, h1, body{
 .content2-left{
 height: 100%;
 width: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
 
 }
 .content2-right{
     height: 100%;
     width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .contact{
     box-sizing: border-box;
