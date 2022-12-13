@@ -24,8 +24,8 @@
    
 #nav a.active {
     text-align: center;
-    background-color: rgb(245, 222, 14);
-    color: black;
+    background-color: rgb(170, 0, 0);
+    color: white;
 }
 
 #nav-logo{
