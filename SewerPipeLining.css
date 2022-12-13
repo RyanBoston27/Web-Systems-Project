@@ -1,0 +1,90 @@
+/* CSS RESET FOR BODY */
+html, h3, h1, body{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER CSS */
+.header{
+    height: 25vh;
+    width: 100vw;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 8%;
+}
+/* Content 1 CSS */
+.content, .content3{
+    height: 75vh;
+    width: 100vw;
+    box-shadow: 0px -10px 7px #333;
+}
+.content1-text, .content3-text{
+    background-color: rgb(224, 39, 39);
+    padding: 3%;
+    box-sizing: border-box;
+    height: 50%;
+    width: 100%;
+    font-weight: bold;
+}
+.content1-text{
+    text-align: center;
+}
+.content3-text{
+    text-align: left;
+}
+.content1-img{
+    background-color: rgb(224, 39, 39);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 7px #333;
+    height: 65%;
+    width: 100%;
+}
+.content1-img img{
+    height: 100%;
+    width: 49%;
+    object-fit:cover;
+}
+#border{
+    border-bottom: 1px solid black;
+    padding-bottom: 1%;
+}
+.content2{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    padding-top: 5%;
+    padding-left: 3%;
+    box-sizing: border-box;
+}
+.content2-left{
+height: 100%;
+width: 50%;
+
+}
+.content2-right{
+    height: 100%;
+    width: 50%;
+}
+.contact{
+    box-sizing: border-box;
+    background-color: rgb(39, 36, 36);
+    color:azure;
+    font-weight: 600;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 1%;
+}
+.footer{
+    box-sizing: border-box;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(19, 17, 17);
+    color: azure;
+    text-align: center;
+    padding-top: 1%;
+}
+
+
