@@ -1,0 +1,89 @@
+/* CSS RESET FOR BODY */
+html, h3, h1, body{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+    background: #8E0E00;
+    background: linear-gradient(to left, #8E0E00, #FFAE42);
+  }
+  
+  #container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 10px 10px 13px rgba(25, 230, 230, 0.5);
+    border-radius: 20px;
+    
+  }
+  
+  h1 {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  p {
+    margin-left: 18%;
+  }
+  
+  #peopleamt, #copper, #hours, #avgHourWage, #payout {
+    width: 60%;
+    padding: 5px;
+    margin-left: 18%;
+    color: red;
+    background-color: #aaaaaa;
+    font-size: 14px;
+  }
+  
+  #calculate {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: black;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+  }
+  
+  #calculate:hover {
+    background: #4c2827;
+    border-bottom-color: #111;
+  }
+  
+  #calculate:active {
+    position: relative;
+    top: 2px;
+  }
+  
+  #totalCost {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  #totalCost:before {
+    content: "Profit amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+  #totalCost small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }

@@ -6,11 +6,12 @@ html, h3, h1, body{
 
 /* HEADER CSS */
 .header{
-    height: 25vh;
+    height: 20vh;
     width: 100vw;
     text-align: center;
     font-size: x-large;
     padding-top: 8%;
+    padding-bottom: 2%;
 }
 .header-text {
     padding: 3%;
@@ -23,6 +24,7 @@ html, h3, h1, body{
 .content{
     height: 60vh;
     width: 100vw;
+    box-shadow: 0px -10px 7px #333;
 }
 .content1-text{
     background-color: rgb(224, 39, 39);
@@ -41,7 +43,7 @@ html, h3, h1, body{
 }
 /* Content 2 CSS */
 .content2{
-    height: 40vh;
+    height: 45vh;
     width: 100vw;
     display: flex;
     padding-top: 5%;
@@ -82,7 +84,7 @@ html, h3, h1, body{
 }
 /* Bottom / Footer CSS */
 .contact{
-
+    width: 100vw;
     box-sizing: border-box;
     background-color: rgb(39, 36, 36);
     color:azure;
