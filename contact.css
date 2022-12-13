@@ -1,5 +1,4 @@
-/* Login page CSS */
-
+/* Contact Us page CSS */
 body {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@ body {
     background-color: #fff;
 }
 
-.login {
+.submit {
     width: 300px;
     overflow: hidden;
     margin: auto;
@@ -27,12 +26,7 @@ label {
     font-size: 17px;
 }
 
-p {
-    text-align: center;
-    color: #fff;
-}
-
-#Uname {
+#Fname {
     width: 300px;
     height: 30px;
     border: none;
@@ -40,13 +34,38 @@ p {
     padding-left: 8px;
 }
 
-#pass {
+#Lname {
     width: 300px;
     height: 30px;
     border: none;
     border-radius: 3px;
     padding-left: 8px;
 }
+
+#Pnumber {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#email {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#message {
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
 
 button {
     width: 300px;

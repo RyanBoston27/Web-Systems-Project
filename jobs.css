@@ -1,0 +1,27 @@
+html, h3, h1, body{
+    margin: 0;
+    padding: 0;
+}
+#php {
+    height: 60vh;
+}
+#add_form{
+    text-align:end;
+    padding-right: 25%;
+}
+#wahoo{
+    margin-left: 3%;
+    margin-top: 3%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+}
+#delete_form{
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 43%;
+    padding-bottom: 1%;
+}

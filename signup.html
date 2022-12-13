@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - M&B Services</title>
-    <link rel = "stylesheet" href = "login.css">
+    <title>Sign Up - M&B Services</title>
+    <link rel = "stylesheet" href = "signup.css">
     <link rel = "stylesheet" href = "Nav.css">
 </head>
 <body>
@@ -20,13 +20,13 @@
         <a href="SewerPipeLining.html">Sewer Pipe Lining</a>
         <a href="jobs.php">jobs</a>
         <a href="Calculator.html">Job Calculator</a>
-        <a class = "active" href="login.html">Login</a>
-        <a href = "signup.html">Sign Up</a>
+        <a href="login.html">Login</a>
+        <a class = "active" href="signup.html">Sign Up</a>
     </div>
     <h2><img src = "./pictures/small_logo.png" alt="small_logo"></h2>
-    <div class ="login">
-        <form id ="login" method ="GET" action = "login.php">
-
+    <div class ="signup">
+        <form id ="signup" method ="POST" action = "signup.php">
+            
             <label><b>Username</b></label>
             <input type = "text" name = "Uname" id = "Uname" placeholder = "Username"><br><br>
 
@@ -35,11 +35,11 @@
 
         </form>
 
-        <button type = "submit" form = "login" name="log" id = "log" value = "LOGIN">LOGIN</button><br><br>
+        <button type = "submit" form = "signup" name = "sign" id = "sign" value = "SIGN UP">SIGN UP</button><br><br>
 
         <p>OR</p><br>
 
-        <button type = "submit" name = "sign" id = "sign" value = "SIGN UP" onclick="location.href = 'signup.html'">SIGN UP</button><br><br>
+        <button type = "submit" name = "log" id = "log" value = "LOGIN" onclick="location.href = 'login.html'">LOGIN</button><br><br>
     </div>
 </body>
 </html>
