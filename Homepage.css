@@ -6,11 +6,12 @@ html, h3, h1, body{
 
 /* HEADER CSS */
 .header{
-    height: 25vh;
+    height: 20vh;
     width: 100vw;
     text-align: center;
     font-size: x-large;
     padding-top: 8%;
+    padding-bottom: 2%;
 }
 .header-text {
     padding: 3%;
