@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - M&B Services</title>
+    <link rel = "stylesheet" href = "login.css">
+    <link rel = "stylesheet" href = "Nav.css">
+</head>
+<body>
+    <div id="nav">
+        <div id="nav-logo">
+        <img src="./pictures/small_logo.png" alt="small logo">
+        </div>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a >Residential Sewer & water</a>
+        <a >Commercial Sewer & water</a>
+        <a >Sewer Pipe Lining</a>
+        <a >Contact Us</a>
+        <a href="Calculator.html">Job Calculator</a>
+        <a class = "active" href="login.html">Login</a>
+    </div>
+    <h2><img src = "./pictures/small_logo.png" alt="small_logo"></h2>
+    <div class ="login">
+        <form id ="login" method ="GET" action = "login.php">
+
+            <label><b>Username</b></label>
+            <input type = "text" name = "Uname" id = "Uname" placeholder = "Username"><br><br>
+
+            <label><b>Password</b></label>
+            <input type = "password" name = "pass" id = "pass" placeholder="Password"><br><br>
+
+            <input type = "button" name = "log" id = "log" value = "LOGIN"><br><br>
+        </form>
+    </div>
+</body>
+</html>
