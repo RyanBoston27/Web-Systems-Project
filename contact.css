@@ -1,0 +1,78 @@
+/* Contact Us page CSS */
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+
+.submit {
+    width: 300px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background: #333;
+    border-radius: 15px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+label {
+    color: #fff;
+    font-size: 17px;
+}
+
+#Fname {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#Lname {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#Pnumber {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#email {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#message {
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+
+button {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: #fff;
+    background-color: rgb(170, 0, 0);
+}
