@@ -1,0 +1,10 @@
+CREATE TABLE login (
+    Id INT(4) NOT NULL AUTO_INCREMENT,
+    Username VARCHAR(50) NOT NULL,
+    Password VARCHAR(50) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+INSERT INTO login (Username, Password) VALUES ('test', 'test');
+INSERT INTO login (Username, Password) VALUES ('Username', 'Password');
+INSERT INTO login (Username, Password) VALUES ('username', 'password');

@@ -1,0 +1,12 @@
+CREATE TABLE jobs (
+    Id INT(4) NOT NULL AUTO_INCREMENT,
+    Address VARCHAR(50) NOT NULL,
+    Description VARCHAR(50) NOT NULL,
+    Cost INTEGER NOT NULL,
+    Payout INTEGER NOT NULL,
+    PRIMARY KEY (id)
+);
+
+INSERT INTO jobs (Address, Description, Cost, Payout) VALUES ('1159 Mayfield Lane', 'Water Line Replacement', 1200, 2500);
+INSERT INTO jobs (Address, Description, Cost, Payout) VALUES ('678 Garfield Ave', 'Water Line Replacement', 1035, 3000);
+INSERT INTO jobs (Address, Description, Cost, Payout) VALUES ('1498 Newport Circle', 'Water Line Replacement', 1450, 2100);
