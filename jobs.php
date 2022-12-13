@@ -18,8 +18,8 @@
     <a href="index.html">Home</a>
     <a href="About.html">About</a>
     <a href="Residential_Sewer&water.html">Residential Sewer & water</a>
-    <a >Commercial Sewer & water</a>
-    <a >Sewer Pipe Lining</a>
+    <a href="Commercial_Sewer&water.html">Commercial Sewer & water</a>
+    <a href="SewerPipeLining.html">Sewer Pipe Lining</a>
     <a class="active" href="jobs.php">jobs</a>
     <a href="Calculator.html">Calculator</a>
     <a href="login.html">Login</a>
