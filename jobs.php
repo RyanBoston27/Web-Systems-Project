@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jobs</title>
-    <link rel = "stylesheet" href="Nav.css">
-    <link rel = "stylesheet" href="foot_con.css">
-    <link rel = "stylesheet" href="jobs.css">
+    <link rel = "stylesheet" href="./CSS/Nav.css">
+    <link rel = "stylesheet" href="./CSS/foot_con.css">
+    <link rel = "stylesheet" href="./CSS/jobs.css">
     
 </head>
 <body>
@@ -113,6 +113,6 @@ mysqli_close($dbc);
     <div class="footer">
         ©2020 M&B Services. All Rights Reserved | Terms of Use | Disclaimer | Privacy Policy
     </div>
-    <script src="Nav.js" defer></script>
+    <script src="./JS/Nav.js" defer></script>
 </body>
 </html>

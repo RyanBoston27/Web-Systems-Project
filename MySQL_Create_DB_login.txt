@@ -1,3 +1,5 @@
+CREATE DATABASE [IF NOT EXISTS] web_systems_final
+
 CREATE TABLE login (
     Id INT(4) NOT NULL AUTO_INCREMENT,
     Username VARCHAR(50) NOT NULL,
