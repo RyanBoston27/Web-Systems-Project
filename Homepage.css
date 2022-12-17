@@ -99,8 +99,3 @@ html, h3, h1, body{
     text-align: center;
     padding-top: 1%;
 }
-
-@media screen and (max-width: 800px) {
-    .card {
-    }
-}
