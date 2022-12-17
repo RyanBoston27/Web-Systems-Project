@@ -8,7 +8,6 @@
 
 }
 
-
 #nav a {
     vertical-align: 7vh;
     display: inline-block;
@@ -35,7 +34,7 @@
 #nav-logo{
     height: 100%;
     width: 15%;
-    display: inline;
+    display: inline-flex;
 }
 #nav-logo img{
     height: 100%;
