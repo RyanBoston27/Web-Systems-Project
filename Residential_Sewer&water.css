@@ -20,6 +20,8 @@ html, h3, h1, body{
 }
 .content1-text{
     background-color: rgb(170, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     padding: 3%;
     box-sizing: border-box;
     height: 50%;
@@ -42,6 +44,7 @@ html, h3, h1, body{
     height: 100%;
     width: 49%;
     object-fit:cover;
+    border-radius: 15px;
 }
 #border{
     border-bottom: 1px solid black;

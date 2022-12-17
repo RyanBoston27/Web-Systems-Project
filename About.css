@@ -44,6 +44,7 @@ html, h3, h1, body{
     height: 100%;
     width: 49%;
     object-fit:cover;
+    border-radius: 15px;
 }
 #border{
     border-bottom: 1px solid black;
@@ -53,7 +54,7 @@ html, h3, h1, body{
     height: 40vh;
     width: 100vw;
     display: flex;
-    padding-top: 5%;
+    padding-top: 4%;
     padding-left: 3%;
     box-sizing: border-box;
 }
